@@ -1,0 +1,21 @@
+### Home
+get http://localhost:8383
+
+### Dashboard
+get http://localhost:8383/dashboard
+
+### API get
+
+get http://localhost:8383/api/data
+
+### API post
+post http://localhost:8383/api/data 
+Content-Type: application/json
+
+{
+    "name": "Ankhaa"
+}
+
+### API delete
+
+delete http://localhost:8383/api/data 
